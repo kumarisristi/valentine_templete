@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <img src="assets/valen.jpg" alt="Valentine's Day Splash">
+        <h1>Happy Valentine's Day!</h1>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="background-music" autoplay loop>
+        <source src="assets/vs.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Main Content -->
+    <header>
+        <h1>Happy Valentine's Day, <span id="partner-name">My Love</span>!</h1>
+        <p>You are the reason my heart beats ❤️</p>
+    </header>
+
+    <section class="love-message">
+        <h2>To My Dearest Friend,</h2>
+        <p id="dynamic-message">
+            On this special day, I want to remind you how much you mean to me. You are the most amazing person in my life, and I cherish every moment we spend together. 
+            Your smile brightens my day, and your love fills my heart with joy. I am so grateful to have you in my life. 
+            Happy Valentine's Day, my dear friend! ❤️
+        </p>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="photo-gallery">
+        <h2>Our Beautiful Memories</h2>
+        <div class="gallery">
+            <div class="gallery-item"><img src="assets/sitara.jpg" alt="Memory 1"></div>
+            <div class="gallery-item"><img src="assets/slice.jpg" alt="Memory 2"></div>
+            <div class="gallery-item"><img src="assets/solo.jpg" alt="Memory 3"></div>
+            <div class="gallery-item"><img src="assets/sri.jpg" alt="Memory 4"></div>
+            <div class="gallery-item"><img src="assets/de.jpg" alt="Memory 5"></div>
+            <div class="gallery-item"><img src="assets/ww.jpg" alt="Memory 6"></div>
+            <div class="gallery-item"><img src="assets/tt.jpg" alt="Memory 7"></div>
+            
+            <div class="gallery-item"><img src="assets/hello.jpf.jfif" alt="Memory 8"></div>
+            <div class="gallery-item"><img src="assets/aabbc.jpg" alt="Memory 9"></div>
+            <div class="gallery-item"><img src="assets/cc.jpg" alt="Memory 10"></div>
+            <div class="gallery-item"><img src="assets/dd.jpg" alt="Memory 11"></div>  
+           
+            <div class="gallery-item"><img src="assets/ff.jpg" alt="Memory 12"></div>
+        </div>
+    </section>
+
+    <!-- Floating Hearts -->
+    <div class="hearts">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <!-- Interactive Love Button -->
+<div class="love-button-container">
+    <button id="love-button">Click Me!</button>
+    <p id="surprise-message" class="hidden">I Love You! ❤️</p>
+</div>
+
+<!-- Confetti Canvas -->
+<canvas id="confetti-canvas"></canvas>
+
+<!-- Countdown Timer -->
+<div class="countdown-timer">
+    <h2>Countdown to Our Special Moment</h2>
+    <div id="countdown">
+        <span id="days">00</span> Days
+        <span id="hours">00</span> Hours
+        <span id="minutes">00</span> Minutes
+        <span id="seconds">00</span> Seconds
+    </div>
+</div>
+    <!-- Footer -->
+    <footer>
+        <p>Created with ❤️ by Sristi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
